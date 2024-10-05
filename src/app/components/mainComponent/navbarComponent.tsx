@@ -78,7 +78,7 @@ const MainNavbar = ()=>{
                     <h4 className="fw-700 font-xss mb-4">Notification</h4>
                     <div className="card bg-transparent-card w-100 border-0 ps-5 mb-3">
                         <img
-                            src="images/user-8.png"
+                            src="../../public/images/user-8.png"
                             alt="user"
                             className="w40 position-absolute left-0"
                         />
@@ -95,7 +95,7 @@ const MainNavbar = ()=>{
                     </div>
                     <div className="card bg-transparent-card w-100 border-0 ps-5 mb-3">
                         <img
-                            src="images/user-4.png"
+                            src="../../public/images/user-4.png"
                             alt="user"
                             className="w40 position-absolute left-0"
                         />
@@ -112,7 +112,7 @@ const MainNavbar = ()=>{
                     </div>
                     <div className="card bg-transparent-card w-100 border-0 ps-5 mb-3">
                         <img
-                            src="images/user-7.png"
+                            src="../../public/images/user-7.png"
                             alt="user"
                             className="w40 position-absolute left-0"
                         />
@@ -129,7 +129,7 @@ const MainNavbar = ()=>{
                     </div>
                     <div className="card bg-transparent-card w-100 border-0 ps-5">
                         <img
-                            src="images/user-6.png"
+                            src="../../public/images/user-6.png"
                             alt="user"
                             className="w40 position-absolute left-0"
                         />
@@ -325,7 +325,8 @@ const MainNavbar = ()=>{
                     </div>
                 </div>
                 <a href="default-settings.html" className="p-0 ms-3 menu-icon">
-                    <img src="images/profile-4.png" alt="user" className="w40 mt--1" />
+                    <img src="/images/user-4.png" alt="user" className="w40 mt--1" />
+
                 </a>
             </div>
             {/* navigation top */}
