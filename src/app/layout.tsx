@@ -2,6 +2,14 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 // import "./globals.css";
 import "../../public/css/style.css"
+import "../../public/css/feather.css"
+
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import "../../public/css/themify-icons.css"
+import 'tippy.js/dist/tippy.css'; // optional for styling
+
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",

@@ -17934,3 +17934,7 @@ select.sort {
         font-size: 16px
     }
 }
+.dropdown-menu .show{
+    top: 0;
+    left: 70%;
+}

@@ -1,4 +1,22 @@
+// Đánh dấu đây là Client Component
+"use client";
+import { useEffect } from "react";
+
+import $ from 'jquery';
+
 const MainNavbar = ()=>{
+    useEffect(() => {
+        // Đăng ký sự kiện click khi component mount
+        $('.dropdown-menu-icon').on('click', function () {
+            $('.dropdown-menu-settings').toggleClass('active');
+        });
+
+        // Cleanup sự kiện khi component unmount hoặc khi useEffect chạy lại
+        return () => {
+            $('.dropdown-menu-icon').off('click');
+        };
+    }, []); // Chỉ chạy một lần khi component mount
+
     return(
         <>
             {/* navigation top*/}
@@ -7,7 +25,7 @@ const MainNavbar = ()=>{
                     <a href="index.html">
                         <i className="feather-zap text-success display1-size me-2 ms-0" />
                         <span className="d-inline-block fredoka-font ls-3 fw-600 text-current font-xxl logo-text mb-0">
-                            Sociala.{" "}
+                            BugSystem.{" "}
                         </span>{" "}
                     </a>
                     <a href="#" className="mob-menu ms-auto me-2 chat-active-btn">
